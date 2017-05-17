@@ -5,7 +5,7 @@ categories: ideas
 ---
 An open research lifecycle involves sharing of each step of the process, including not only scientific papers but also data (raw and processed), metadata, methods, software. In this way, the process of building on top of the original scientific idea is eased and it profits from a solid and peer reviewd chain of knowledge that leads to new and improved scientific results.
 
-![spirale](/imgs/spirale.png)
+![spirale]({{ site.baseurl }}/imgs/spirale.png)
 
 The whole research should be shared: 
 * research ideas: share your research idea could give you a rapid feedback and a taste of public interest on your research. Some specific journals are made for that, [RIO][rio] is an example.

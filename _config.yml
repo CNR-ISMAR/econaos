@@ -27,7 +27,7 @@ description: > # this means to ignore newlines until "baseurl:"
   from the collection of data, to the publication of results. In this context, 
   the blog wants to be a newsletter to keep us and you all update about our
   activities and ideas. Stay tuned!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/test" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: annalisapg
 github_username:  annalisapg
