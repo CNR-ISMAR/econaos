@@ -22,9 +22,9 @@ The program of the day is reported below:
 A brief intro given by Alessandra Pugnetti concerned the reasons and the themes of research which involve all the present institutions and their cooperation.
 The morning (10:00-13:00) was articulated in six brief communications given by the WP2 of RITMARE project ("data" line) and pointed the focus on managing, sharing and the visibility of LTER ecological data on Northern Adriatic area.
 The first part of the workshop presented some generical concepts related to Open Science, Open Access Open Data and Open Source. Then, an idea of what an open project lifecycle looks like was given by [Alessandro Sarretta][Sarretta].
-In the second part a more deepen study on the developement of the research project lifecycle was given. The project involves data from the Norther Adriatic observatory. Some fundamental tasks have been individuated ([Annalisa Minelli][Minelli]).
+In the second part a more deepen study on the developement of the research project lifecycle was given. The project involves data from the Norther Adriatic observatory. Some fundamental tasks have been individuated ( [Annalisa Minelli][Minelli] ).
 The third part concerned a more detailed and fascinating focus on the origin of LTER marine ecological data at CNR-ISMAR. Collection, analysis techniques and methods were presented focusing on their evolution in time ([Giorgio Socal][Socal]).
-The fourth intervention was about the collection of ancillary data in order to evaluate the data realiability and to prepare historical data for a proper metadatation. The data harmonisation task is also afforded here ([Annalisa Minelli][Minelli2]).
+The fourth intervention was about the collection of ancillary data in order to evaluate the data realiability and to prepare historical data for a proper metadatation. The data harmonisation task is also afforded here ( [Annalisa Minelli][Minelli2] ).
 The fifth communication affords the themes of data description, organisation and sharing. Information about data interoperability and harmonisation following italian, european and international guidelines were given and some example were showed by [Alessandro Oggioni][Oggioni].
 In the sixth communication [Mauro Bastianini][Bastianini] presented the past experiences and actual infrastructure used to manage and visualize ecological long term data and geographical marine data. Sensors are identified and described and each dataset has attached metadata [INSPIRE][inspire] compliant.
 
@@ -44,12 +44,12 @@ Photos of the event:
 [cnr-ismar]: http://www.ismar.cnr.it/index_html-1?set_language=en&cl=en
 [ritmare]: http://www.ritmare.it/en/
 [Sarretta]: 
-[Minelli]: https://owncloud.ve.ismar.cnr.it/owncloud/index.php/s/kKTfxXSxXaQZrhd
+[Minelli]: http://owncloud.ve.ismar.cnr.it/owncloud/index.php/s/kKTfxXSxXaQZrhd
 [Socal]:
-[Minelli2]: https://owncloud.ve.ismar.cnr.it/owncloud/index.php/s/8UV1QynXxngLQI5
+[Minelli2]: http://owncloud.ve.ismar.cnr.it/owncloud/index.php/s/8UV1QynXxngLQI5
 [Oggioni]:
 [Bastianini]:
-[INSPIRE]: http://inspire.ec.europa.eu/
+[inspire]: http://inspire.ec.europa.eu/
 [Zingone]: 
 [Lipizer]: 
 
