@@ -29,10 +29,8 @@ description: > # this means to ignore newlines until "baseurl:"
   activities and ideas. Stay tuned!
 baseurl: "/test" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-footer-links:
- - twitter: annalisapg
- - facebook: ProgettoRitmare
- - github:  CNR-ISMAR
+github_username:  CNR-ISMAR
+facebook_username: ProgettoRitmare
 
 # Build settings
 markdown: kramdown
