@@ -30,7 +30,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/test" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  CNR-ISMAR
-twitter_username: ProgettoRitmare
+twitter_username: annalisapg
 
 # Build settings
 markdown: kramdown
