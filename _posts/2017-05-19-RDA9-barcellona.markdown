@@ -5,7 +5,6 @@ categories: events
 lang: it
 ref: plenary
 ---
-
 Dal 4 al 9 aprile, a Barcellona, ha avuto luogo la [9th Plenary][plenary] della [Research Data Alliance][RDA], al Barcélo Saints Hotel. Il meeting è stato organizzato dal [Barcelona Supercomputing Center][bsc] e il tema era "Data Infrastructures for Open Science".
 Alcune informazioni base su RDA e le plenaries:
 * RDA si occupa del trattamento dei dati scienfici, servendosi di ricercatori e data scientists che provengono da tutto il mondo, concentrandosi sulla standardizzazione, mantenimento e condivisione dei dati. La missione di questa organizzazione sta nel costruire ["i ponti sociali e tecnici che permettono la condivisione aperta dei dati" ][mission]
