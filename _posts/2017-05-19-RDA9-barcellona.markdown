@@ -3,6 +3,7 @@ layout: post
 title:  "La 9a conferenza plenaria di RDA a Barcellona"
 categories: events
 lang: it
+ref: plenary
 ---
 
 Dal 4 al 9 aprile, a Barcellona, ha avuto luogo la [9th Plenary][plenary] della [Research Data Alliance][RDA], al Barcélo Saints Hotel. Il meeting è stato organizzato dal [Barcelona Supercomputing Center][bsc] e il tema era "Data Infrastructures for Open Science".
