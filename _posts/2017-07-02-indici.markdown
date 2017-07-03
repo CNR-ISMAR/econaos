@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Lavorando sugli indici"
+categories: ideas
+lang: it
+ref: indexes
+---
+
+Per far sì che la nostra idea di apertura dell'intero ciclo di ricerca occorre finalizzare il processo stesso, quindi si è deciso di calcolare alcuni semplici indici ecologici che possano essere, oltre ad un primo prodotto del nostro progetto, anche un esempio di cooperazione tra i diversi istituti coinvolti.
+Infatti il nostro "gruppo di ricerca allargato" composto da [CNR-ISMAR][ismar] (Ancona, Bologna e Venezia), [OGS-Trieste][ogs], [CNR-IREA][irea] (Milano) and [Stazione Zoologica Anton Dohrn][szan], gestisce, in ognuno dei suddetti istituti, molti dati oceanografici simili a livello di tipologia di parametri. Quindi si è paensato: perché non condividere i nostri dati per effettuare uno studio comparato e provare a mostrare quali sono le potenzialità della Scienza Aperta?
+I risultati sono:
+
+* un questionario in preparazione che ci permetta di comprendere la composizione di ogni database in ogni istituzione;
+![poll]({{ site.baseurl }}/imgs/poll.png)
+* un ciclo di incontri scientifici (meeting ecologici) dove ricercatori di esperienza provano ad identificare, in base ai dati a disposizione, i primi migliori indici da implementare;
+* un gruppo di ricerca (gruppo informatico) che studia come supportare il calcolo degli indici prescelti per condividere al meglio i risultati di questa cooperazione.
+Da dove partire?
+In prima istanza, è stato identificato un indice semplice che possa essere calcolato (senza bisogno di molte elaborazioni aggiuntive) da tutte le istituzioni, che è il Trophic Index (o TRIX).
+Il [TRIX][trix], introdotto nel 1998 da Vollenweider et al., ha lo scopo di caratterizzare livelli eutrofici e, applicato a dati ecologici a lungo termine, è particolarmente interessante quando questi valori cambiano nel tempo.
+Nel Mar Mediterraneo (ma più specificamente nel Mar Adriatico) queste variazioni non sono così evidenti a livello stagionale, a meno di eventi estremi e specifici. Tuttavia l'indice dipende da parametri semplici (ossigneno, clorofilla a, nitrogeni inorganici dissolti e concentrazione totale di fosforo) che tutte le istituzioni coinvolte hanno a disposizione nei loro database. Quindi si è deciso di iniziare con questo semplice indice come "esperimento di cooperazione" tra gli istituti con l'obiettivo di calcolare poi indici ecologici più significativi.
+Il triplice approccio (questionario, metting ecologici e gruppo IT) è necessario per alcune ragioni:
+* se vogliamo collaborare nel calcolo di indici significativi occorre conoscere la composizione del database di ogni istituzione - per capire quanto in là ci si può spingere con i dati che già abbiamo e quanto occorre elaborare, ricampionare e calcolare per ottenere risultati migliori;
+* i meeting ecologici sono nececcari perché nel nostro progetto di aprire il ciclo di vita di un progetto di ricerca rappresentano il centro - la ragione - del processo di apertura: quali dati stiamo condividendo? per rispondere a questa domanda e per far sì di non aprire dati qualunque, è necessario discutere a questo livello;
+* anche il gruppo IT è importante in questo processo dal momento che è incaricato di scegliere i metodi migliori e i migliori strumenti per i bisogni espressi. Questo argomento non è triviale, dal momento che ogni tipo di dato può essere trattato in molti modi diversi ma, a seconda delle necessità, solo pochi metodi sono quelli giusti. Occorre individuare la soluzione migliore per ogni requisito ecologico (esplicitamente espresso o meno).
+Quindi il viaggio sembra ancora lungo, ma gli obiettivi sono alti e bend definiti. Continuate a seguire i nostri aggiornamenti!
+
+[ismar]: www.ismar.cnr.it/
+[ogs]: www.ogs.trieste.it/
+[irea]: www.irea.cnr.it/
+[szan]: www.szn.it/index.php/it/
+[trix]: http://phytobioimaging.unisalento.it/Portals/7/Documents/TRIX/VollenWeider%20et%20al%201998.pdf

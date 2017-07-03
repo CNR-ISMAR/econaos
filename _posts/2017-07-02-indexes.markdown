@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Working on indexes"
+categories: ideas
+lang: en
+ref: indexes
+---
+
+To make tangible our idea of opening an entire research lifecycle we decided to start our work with the calculation of some simple ecological indexes wich could be an example of cooperation between insistutions too.
+In fact the "large research group" composed by [CNR-ISMAR][ismar] (Ancona, Bologna and Venezia), [OGS-Trieste][ogs], [CNR-IREA][irea] (Milano) and [Stazione Zoologica Anton Dohrn][szan], manage a lot of oceanographic data and, at parameter's level, the great part is similar in each database. So we thought: why not to start sharing our databases and try to show, all together, what Open Science can do?
+The results are:
+* a poll (in preparation) to understand the composition of each database for each institution;
+![poll]({{ site.baseurl }}/imgs/poll.png)
+* some scientific meetings (ecological meetings) where experienced researchers are trying to identify the first good indexes to implement;
+* a research group (information technology group) studying how to support indexes calculation and share at best the results of this cooperation.
+We just indentified a simple index which could be calculated for all the institutions, which is the Trophic Index (TRIX).
+The [TRIX][trix], introduced by Vollenweider et al. in 1998, aims to characterize eutrophic levels and, applied to long term ecological data, it is particularly interesting where these levels are varying in time. 
+In the Mediterranean (Adriatic) sea these variations are normally not so remarquable during the seasons, unless exterme events occur, but the index depends by some simple parameters (oxygen, chlorophyll a, dissolved inorganic nitrogen and total phosphorus concentration) wich all the institutions involved have in their databases so we decided to start with this simple index as a "proof of cooperation" in order to evolve with more significant ecological indexes in the future.
+The threefold approach (poll, ecological meetings and IT group) is necessary for some reasons:
+* if we want to cooperate in calculating significant indexes we need to know first the composition of each institution's database - just to know how far we can go with the data we have and if we need to elaborate composed parameters in order to achieve better results;
+* the ecological mettings are necessary because in our "open lifecycle research project" represent the research theme - the needs - of the opening process: what are we opening? to answer this question and not opening "whatever data" we need to discuss at this level;
+* the IT group is also important in this process, since it is in charge of choose the better methods for the expressed needs. This is not trivial since each kind of data could have a billion different development, but only few are correct for the specific case. We need to individuate the better solution for each ecological requirement (explicitly expressed by ecologists or not).
+So, the journey seems still long, but the purposes are high and defined. Continue following our updates!
+
+[ismar]: www.ismar.cnr.it/
+[ogs]: www.ogs.trieste.it/
+[irea]: www.irea.cnr.it/
+[szan]: www.szn.it/index.php/it/
+[trix]: http://phytobioimaging.unisalento.it/Portals/7/Documents/TRIX/VollenWeider%20et%20al%201998.pdf
