@@ -2,6 +2,8 @@
 layout: post
 title:  "The Open Project lifecycle"
 categories: ideas
+lang: en
+ref: project
 ---
 An open research lifecycle involves sharing of each step of the process, including not only scientific papers but also data (raw and processed), metadata, methods, software. In this way, the process of building on top of the original scientific idea is eased and it profits from a solid and peer reviewd chain of knowledge that leads to new and improved scientific results.
 

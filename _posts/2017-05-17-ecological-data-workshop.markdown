@@ -2,13 +2,15 @@
 layout: post
 title:  "Workshop on ecological marine long term data and the Open Science in Venice"
 categories: events
+lang: en
+ref: workshop
 ---
 A workshop on [LTER][lter-italy] (Long Term) ecological marine data took place in Venice on April the 10th at the Institute for Marine Sciences of the National Council of Research [CNR-ISMAR][cnr-ismar].
 The workshop was addressed to all the researchers involved in the [RITMARE][ritmare] flagship project and, more specifically, relies on the subproject 7: "Data Management".
 
 Researchers from different insistutions attended the workshop:
 * CNR-ISMAR Venice,
-* IREA,
+* CNR-IREA Milano,
 * CNR-ISMAR Bologna,
 * CNR-ISMAR Ancona,
 * OGS-OCE Trieste,
