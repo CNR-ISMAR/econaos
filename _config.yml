@@ -26,7 +26,7 @@ index:
 feed:
   en: /feed.xml
   it: /flux.xml
-baseurl: "/test" # the subpath of your site, e.g. /blog
+baseurl: "/econaos" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  CNR-ISMAR
 twitter_username: annalisapg
