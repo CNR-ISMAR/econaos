@@ -3,6 +3,7 @@ layout: post
 title:  "The 9th RDA plenary in Barcelona"
 categories: events
 lang: en
+ref: plenary
 ---
 From April 4th to 7th, the [9th Plenary][plenary] of [Research Data Alliance][RDA] took place in Barcelona (Spain) at Barcélo Saints hotel - organized by the [Barcelona Supercomputing Center][bsc]
 Fundamentals of RDA and plenaries:
