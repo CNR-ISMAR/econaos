@@ -63,10 +63,16 @@ Durante l'intero wokshop sono stati incoraggiati scambi tra i partecipanti, è s
 dei partecipanti con i temi trattati, sono state incoraggiate anche domande libere e impressioni.
 
 Le foto dell'evento:
-![minelli]({{ site.baseurl }}/imgs/minelli.jpg) ![oggioni]({{ site.baseurl }}/imgs/oggioni.jpg)
+![minelli]({{ site.baseurl }}/imgs/minelli.jpg) 
 
 
-![bastianini]({{ site.baseurl }}/imgs/bastianini.jpg) ![socal]({{ site.baseurl }}/imgs/socal.jpg)
+![oggioni]({{ site.baseurl }}/imgs/oggioni.jpg)
+
+
+![bastianini]({{ site.baseurl }}/imgs/bastianini.jpg) 
+
+
+![socal]({{ site.baseurl }}/imgs/socal.jpeg)
 
 [lter-italy]: http://www.lteritalia.it/en
 [cnr-ismar]: http://www.ismar.cnr.it/index_html-1?set_language=en&cl=en

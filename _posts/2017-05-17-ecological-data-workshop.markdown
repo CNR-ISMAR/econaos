@@ -39,10 +39,16 @@ Observation infrastructure have been presented and a discussion about their even
 During the whole workshop exchange between participant was encouraged. A poll has been made to taste the degree of confiance of each particpant with the themes of Open Science, free questions and impression were also encouraged.
 
 Photos of the event:
-![minelli]({{ site.baseurl }}/imgs/minelli.jpg) ![oggioni]({{ site.baseurl }}/imgs/oggioni.jpg)
+![minelli]({{ site.baseurl }}/imgs/minelli.jpg) 
 
 
-![bastianini]({{ site.baseurl }}/imgs/bastianini.jpg) ![socal]({{ site.baseurl }}/imgs/socal.jpg)
+![oggioni]({{ site.baseurl }}/imgs/oggioni.jpg)
+
+
+![bastianini]({{ site.baseurl }}/imgs/bastianini.jpg) 
+
+
+![socal]({{ site.baseurl }}/imgs/socal.jpeg)
 
 
 [lter-italy]: http://www.lteritalia.it/en
