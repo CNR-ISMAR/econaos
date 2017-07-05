@@ -19,9 +19,53 @@
 #%module
 #% description: Preprocessing of marine ecological data.
 #%end
-#%option G_OPT_V_INPUT
-#% key: voronoi
-#% description: Observation points
+#%option
+#% key: llmset
+#% type: string
+#% label: path to the latlong mapset where data are stored
+#% description: for exampe '/home/annalisa/DATAGRASS/LL_WGS84/ismar72'
+#% required: yes
+#%end
+#%option G_OPT_F_INPUT
+#% key: matrix
+#% type: string
+#% label: path to the csv matrix containing data
+#% description: for exampe '/home/annalisa/Documenti/Venezia/datiMauroFabrizio/dataset_adriatico/versioniMatrice/matrice3D.csv'
+#% required: yes
+#%end
+#%option G_OPT_F_INPUT
+#% key: stations
+#% type: string
+#% label: path to the csv with coordinates and names of the stations
+#% description: for exampe '/home/annalisa/Documenti/Venezia/datiMauroFabrizio/dataset_adriatico/stationsAll.csv'
+#% required: yes
+#%end
+#%option G_OPT_F_OUTPUT
+#% key: matclean
+#% type: string
+#% label: path to the csv cleaned matrix
+#% description: for exampe '/home/annalisa/Documenti/Venezia/datiMauroFabrizio/dataset_adriatico/matrixCleaned.csv'
+#% required: yes
+#%end
+#%option G_OPT_V_OUTPUT
+#% key: mattot
+#% type: string
+#% label: name of the shapefile of the total matrix in output
+#% description: for exampe '/home/annalisa/Documenti/Venezia/datiMauroFabrizio/dataset_adriatico/matrixTot.shp'
+#% required: yes
+#%end
+#%option G_OPT_V_OUTPUT
+#% key: matmatching
+#% type: string
+#% label: name of the shapefile of points matching with stations in output
+#% description: for exampe '/home/annalisa/Documenti/Venezia/datiMauroFabrizio/dataset_adriatico/matrixMatching.shp'
+#% required: yes
+#%end
+#%option G_OPT_V_OUTPUT
+#% key: matinteger
+#% type: string
+#% label: name of the shapefile of points with an integer as station name in output
+#% description: for exampe '/home/annalisa/Documenti/Venezia/datiMauroFabrizio/dataset_adriatico/matrixInteger.shp'
 #% required: yes
 #%end
 
@@ -37,11 +81,19 @@ def cleanup():
 
 def main():
     #mapset latlong - tutto il path locale
-    llMset=options['llMset']
+    llmset=options['llmset']
     #matricione in csv
     matrix=options['matrix']
     #rete delle stazioni in csv
     stations=options['stations']
+    #
+    matclean=options['matclean']
+    #
+    mattot=options['mattot']
+    #
+    matmatching=options['matmatching']
+    #
+    matinteger=options['matinteger']
     
     #llMset= '/home/annalisa/DATAGRASS/LL_WGS84/ismar72'
     #matrix= '/home/annalisa/Documenti/Venezia/datiMauroFabrizio/dataset_adriatico/versioniMatrice/matrice3D.csv'
@@ -70,7 +122,7 @@ def main():
     grass.run_command('g.region', raster='italy_cleaned2', res='100')
     
     #facciamo un buffer negativo di 10km per evitare i campionamenti in zone costiere (o estuarine)
-    #verifico prima che io non abbia già il buf neg da precedenti elaborazioni (operazione time consuming!)
+    #verifico prima che io non abbia gia il buf neg da precedenti elaborazioni (operazione time consuming!)
     r=str(grass.list_strings(type='raster'))
     if re.search('italy_cleaned3',r):
 	    pass;
@@ -102,13 +154,13 @@ def main():
         
             #sposto i punti piazzati male
             grass.run_command('v.edit', tool='move', map='matrice_3D', cat=i, move=str(float(east_to)-float(east_from))+','+str(float(north_to)-float(north_from))+',0')
-			grass.run_command('v.to.db', map='matrice_3D', option='coor', columns='dbl_1,dbl_2,dbl_3')
+            grass.run_command('v.to.db', map='matrice_3D', option='coor', columns='dbl_1,dbl_2,dbl_3')
 
     
     
     #creazione dei voronoi e matching della stazione indicata coi voronoi
     
-    #mi metto intorno alle stazioni e allargo la bbox di 30km per prendere più punti possibile
+    #mi metto intorno alle stazioni e allargo la bbox di 30km per prendere piu punti possibile
     grass.run_command('g.region', vector='stationsAll_2', n='n+30000', s='s-30000', e='e+30000', w='w-30000')
     grass.run_command('v.voronoi', input='stationsAll_2', output='stationsAllVoronoi_2')
     grass.run_command('v.db.addcolumn',map='matrice_3D',column='voronoiStat char(30)')
@@ -165,11 +217,16 @@ def main():
     #carico i nuovi vettoriali di matching e integer con matrice corretta
     grass.run_command('v.in.ascii', flags='z', input='matching.csv', output='matrice_3D_matching', x='2', y='3', z='4', cat='1')
     grass.run_command('v.in.ascii', flags='z', input='integer.csv', output='matrice_3D_integer', x='2', y='3', z='4', cat='1')
-    grass.run_command('v.edit', map='matrice_3D', type='point', tool='delete', cats=str(cats_integer)[1:-1]+','+str(cats_matching)[1:-1])
+    #salvo i risultati, una tabella dei dati totali e tre shapes dei vettoriali totale, matching e integer
+    grass.run_command('v.out.ogr', input='matrice_3D', output=matclean format='CSV')
+    grass.run_command('v.out.ogr', flags='e', input='matrice_3D', output=mattot)
+    grass.run_command('v.out.ogr', flags='e', input='matrice_3D_integer', output=matinteger)
+    grass.run_command('v.out.ogr', flags='e', input='matrice_3D_matching', output=matmatching)
+#   grass.run_command('v.edit', map='matrice_3D', type='point', tool='delete', cats=str(cats_integer)[1:-1]+','+str(cats_matching)[1:-1])
 
     print "The End";
 
 if __name__ == "__main__":
     options, flags = parser()
-    atexit.register(cleanup)
+#   atexit.register(cleanup)
     sys.exit(main())
