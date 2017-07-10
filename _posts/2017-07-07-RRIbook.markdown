@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "EcoNÀOS project is in RRI book"
+categories: products
+lang: en
+ref: rri
+---
+
+The IREA CNR institute, in a project leaded by Alba L'Astorina, will soon publish a book about [Responsible Research and Innovation][rriSite]. We are glad to announce that the EcoNÀOS project will be part of this book as an RRI experience.
+
+
+But what does it mean exactly Responsible Reseach and Innovation?
+RRI [guidelines][guidelines] make part of the Horizon 2020 European Commission program. It is aimed to accomplish a research which can bring innovation to the society, but it also directly involves society.
+
+
+The research is meant to be pursued by fixing [six fundamental principles][6princ]:
+1. _Public Engagement_: the whole Society must be involved into the reseach. For "society" we intend citizens, researchers, policy makers and stakeholders. Each one of them must take place into the research/innovation process, integrating their point of view in order to model research on real needs;
+2. _Gender Equality_: the gender fact plays a key role in RRI. Human resources sections must take in consideration the under representation of female gender in research in order to fill this gap and promote equality at best;
+3. _Science Education_: RRI promotes the growth of students in science and technology education. There's always need for fresh scientific ideas and future researchers to pursue them;
+4. _Ethics_: Ethics pillar is aimed to do research in the "right way". This means the practical application of [FAIR][fair] principles in the research developement in order to ensure better quality results;
+5. _Open Access_: results must be shared in order to achieve a real scientific "progress" and this must be done ASAP, by sharing not only final results, but for example data (elaborated and raw);
+6. _Governance_: the policy makers are in charge to take decision and state behaviors in order to apply all the previous principles to scientific research. 
+
+
+This approach represents science for and with citizens. Moreover, this could lead at least to two important results:
+* a more ethic research (everything is at under sunlight), consequently each decision taken (governance) on the basis of this research could be more agreed an shared from citizens
+* grow a more science-aware society.
+
+
+In this context, our project fits at least the "open access" principle; it also enlarges the landscape to Open Science by adding the code (Open Source) and the process in general in order to achieve a FAIR behavior as stated by the European programme [Horizon 2020][H2020].
+
+
+Our short article will be entitled "work in progress" since, after 7 months of work we start making a balance of the progress made and themes to insist on. Strenght point of the approach and obstacles along the way.
+
+
+The book will be published by [CNR editions][cnreditions], each contribution will be citeable by the assignment of a [DOI][doi] and the entire book will be available under the Creative Commons Attribution license ([CC-BY][ccby]).
+
+
+
+
+[rriSite]: http://irea.cnr.it/index.php?option=com_k2&view=item&id=732:rri-sfide-e-opportunit%C3%A0-per-il-mondo-della-ricerca
+[guidelines]: https://ec.europa.eu/programmes/horizon2020/en/h2020-section/responsible-research-innovation
+[6princ]: http://ec.europa.eu/research/science-society/document_library/pdf_06/responsible-research-and-innovation-leaflet_en.pdf
+[fair]: http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf
+[H2020]: https://ec.europa.eu/programmes/horizon2020/
+[cnreditions]: http://www.edizioni.cnr.it/Home/tabid/39/List/0/CategoryID/0/Level/a/Default.aspx?SortField=ProductName,ProductName
+[doi]: https://www.doi.org/
+[ccby]: https://creativecommons.org/licenses/by/4.0/

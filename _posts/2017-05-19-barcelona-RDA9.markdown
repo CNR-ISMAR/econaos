@@ -22,7 +22,7 @@ The 9th Plenary was about "Data infrastructures for Open Science" and counted ma
 
 
 Photos of the event:
-![workshop]({{ site.baseurl }}/imgs/RDAbcn.jpeg)
+![rda]({{ site.baseurl }}/imgs/RDAbcn.jpeg)
 
 [plenary]: https://www.rd-alliance.org/plenaries/rda-ninth-plenary-meeting-barcelona
 [RDA]: https://www.rd-alliance.org/

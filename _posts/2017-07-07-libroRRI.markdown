@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Il progetto EcoNÀOS e la Responsible Research Innovation"
+categories: products
+lang: it
+ref: rri
+---
+
+L'istituto IREA del CNR, in un progetto guidato da Alba L'Astorina, pubblicherà presto un libro sul tema [Responsible Research and Innovation][rriSite]. We are glad to announce that the EcoNÀOS project will be part of this book as an RRI experience.
+
+
+..ma che cosa significa esattamente Responsible Reseach and Innovation?
+Innanzitutto la [RRI][guidelines] fa parte del più ampio programma europeo Horizon 2020 ed è finalizzato a rivoluzionare la pratica della ricerca in modo che essa possa realmente portare l'innovazione nella società, coinvolgendo direttamente quest'ultima nel processo di ricerca.
+
+
+In particolare, sono stati fissati [sei principi fondamentali][6princ] nella realizzazione di una ricerca responsabile:
+1. _Public Engagement_: tutta la società deve essere coinvolta nel processo di ricerca dove per "società" si intendono: cittadini, ricercatori, pubbliche amministrazioni e stakeholders. Ognuno deve prendere parte a questo processo, integrando il proprio punto di vista univoco, in modo tale da modellare la ricerca sui bisogni reali di chi nella società opera quotidianamente a vario titolo;
+2. _Gender Equality_: il fattore di genere gioca un ruolo chiave nella RRI. Soprattutto i settori connessi alle risorse umane devono prendere coscienza di questo gap di genere esistene nel mondo della ricerca per cercare di colmarlo e promuovere al meglio l'uguaglianza;
+3. _Science Education_: l'educazione scientifica e tecnologica è reputata un principio chiave della crescita degli studenti nella RRI. Infatti, la promozione di una certa cultura scienfica, è un modo per formare la prossima classe di ricercatori pronti a portare idee sempre nuove, al passo con un mondo che cambia;
+4. _Ethics_: il principio etico punta a una ricerca fatta "nel modo giusto". Questo implica l'applicazione pratica dei principi di [FAIR][fair] descritti nella direttiva Horizon 2020. Tutto questo deve essere visto non come un limite ma come uno strumento finalizzato ad assicurare risultati di migliore qualità;
+5. _Open Access_: un reale progresso scientifico è frutto della libera condivisione dei risultati della ricerca; queste misure di condivisione devono essere prese prima possibile, condividendo, se possibile, non solo la descrizione dei risultati ottenuti, ma anche i mezzi e gli strumenti utilizzati per ottenerli - come ad esempio i dati (grezzi ed elaborati);
+6. _Governance_: tutti coloro coinvolti nei processi decisionali devono garantire l'applicazione dei principi precedentemente enunciati alla ricerca scientifica, quindi il principio di governance funge da "tutela" dei principi della RRI. 
+
+
+Questo approccio rappresenta la Scienza per e con i cittadini. In più, l'applicazione dei sei principi potrebbe portare almeno a due risultati notevoli:
+* una ricerca più "etica" (perchè tutto avviene alla luce del sole) - di conseguenza ogni atto di governance fondato su ricerche così condotte potrebbe portare a decisioni concertate e condivise non solo da parte della comunità scientifica ma anche dalla società;
+* crescere una società più consapevole dell'impatto della scienza nella vita quotidiana.
+
+
+In questo contesto il nostro progetto si inserisce a pieno titolo nel filone "Open Access", allargando il panorama all'Open Science con l'aggiunta del codice (Open Source) e l'apertura di tutto il processo di ricerca in modo da implementare un comportamento più "giusto" (FAIR) nel modo di fare ricerca, come decretato dal Programma Europeo [Horizon 2020][H2020].
+
+
+Il nostro articolo breve conterrà già nel titolo la parola chiave "lavori in corso" proprio perché, dopo i primi 7 mesi di EcoNÀOS, possiamo iniziare a fare una sorta di bilancio dei primi progressi fatti o individuare i temi su cui è opportuno insistere. Come pure evidenziare i reali punti di forza del nostro approccio e gli ostacoli incontrati lungo il percorso.
+
+
+Il libro sarà edito da [CNR edizioni][cnreditions], ogni contributo sarà citabile indipendentemente tramite l'assegnazione di un [DOI][doi] e l'intero libro verrà rilasciato sotto licenza Creative Commons Attribution ([CC-BY][ccby]).
+
+
+
+
+[rriSite]: http://irea.cnr.it/index.php?option=com_k2&view=item&id=732:rri-sfide-e-opportunit%C3%A0-per-il-mondo-della-ricerca
+[guidelines]: https://ec.europa.eu/programmes/horizon2020/en/h2020-section/responsible-research-innovation
+[6princ]: http://ec.europa.eu/research/science-society/document_library/pdf_06/responsible-research-and-innovation-leaflet_en.pdf
+[fair]: http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf
+[H2020]: https://ec.europa.eu/programmes/horizon2020/
+[cnreditions]: http://www.edizioni.cnr.it/Home/tabid/39/List/0/CategoryID/0/Level/a/Default.aspx?SortField=ProductName,ProductName
+[doi]: https://www.doi.org/
+[ccby]: https://creativecommons.org/licenses/by/4.0/
