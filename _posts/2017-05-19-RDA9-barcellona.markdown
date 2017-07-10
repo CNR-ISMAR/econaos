@@ -23,7 +23,7 @@ La 9a Plenary nello specifico ha visto molti contributi interessanti in relazion
 
 
 Alcune foto del'evento:
-![workshop]({{ site.baseurl }}/imgs/RDAbcn.jpeg)
+![rda]({{ site.baseurl }}/imgs/RDAbcn.jpeg)
 
 [plenary]: https://www.rd-alliance.org/plenaries/rda-ninth-plenary-meeting-barcelona
 [RDA]: https://www.rd-alliance.org/
